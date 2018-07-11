@@ -260,82 +260,37 @@ h3 {
 
 		}
 
-		#carouselTitle {
+		.horizontalTitleDiv {
 			width: 40%;
 			padding-top: 12%;
 		}
-		#carouselFirstImageDiv {
+		.horizontalFirstImageDiv {
 			width: 60%;
 		}
-		#carouselSecondImageDiv {
+		.horizontalSecondImageDiv {
 			width: 60%;
 		}
-		#carouselDescription {
+		.horizontalDescription {
 			width: 40%;
 			padding-top: 12%;
 		}
 
-		#matchingTitle {
+		.verticalTitleDiv {
 			width: 40%;
 			padding-top: 12%;
 		}
-		#matchingFirstImageDiv {
+		.verticalFirstImageDiv {
 			width: 60%;
 		}
-		#matchingSecondImageDiv {
+		.verticalSecondImageDiv {
 			width: 30%;
 		}
-		#matchingDescription {
+		.verticalDescription {
 			width: 70%;
 			padding-top: 12%;
 		}
 
-		#quoteQuizTitle {
-			width: 55%;
-			padding-top: 8%;
-		}
-		#quoteQuizFirstImageDiv {
-			padding: 5% 15% 5% 5%;
-			width: 25%;
-		}
-		#quoteQuizSecondImageDiv {
-			width: 35%;
-		}
-		#quoteQuizDescription {
-			width: 65%;
-			padding-top: 12%;
-		}
 
-		#chronologicalAgeCalculatorTitle {
-			width: 50%;
-			padding-top: 10%;
-		}
-		#chronologicalAgeCalculatorFirstImageDiv {
-			width: 50%;
-		}
-		#chronologicalAgeCalculatorSecondImageDiv {
-			width: 40%;
-		}
-		#chronologicalAgeCalculatorDescription {
-			width: 60%;
-			padding-top: 12%;
-		}
-
-		#movingButtonsTitle {
-			width: 60%;
-			padding-top: 15%;
-		}
-		#movingButtonsFirstImageDiv {
-			width: 40%;
-		}
-		#movingButtonsSecondImageDiv {
-			width: 0%;
-		}
-		#movingButtonsDescription {
-			width: 100%;
-			padding-top: 12%;
-			padding-bottom: 12%;
-		}
 
 
 
