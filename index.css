@@ -1,0 +1,415 @@
+/* Overall Settings */
+*{margin: 0 auto; text-align: center; font-family: "Helvetica Neue";}
+
+/*** Clearfix Solution for Floats ***/
+#mainBackgroundDiv:after,
+#navBarDiv ul:after,
+#projectImagesContainerDiv:after,
+#projectImageDiv:after,
+.individualProjectDiv:after {
+	content: "";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+}
+
+/*** Main variables ***/
+:root{
+	--widthOfNavBarItems: 300px;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+body{
+	position: relative;
+}
+
+#mainBackgroundDiv {
+	position: fixed;
+	margin-top: 0;
+	padding-top: 0;
+	/* height: 100%; */
+	/* height: 2000px; */
+	width: 160%;
+}
+
+	#mainBackgroundDiv img {
+		/* height: 100%; */
+		width: 100%;
+	}
+
+
+
+
+
+#mainBodyDiv {
+
+	height: 100%;
+	width: 100%;
+	padding-top: 0;
+	position: relative;
+
+}
+
+#navBarDiv {
+	position: relative;
+	width: 100%;
+	padding: 10px 0;
+	/* background-color: rgba(0,0,0,.7); */
+
+}
+	#navBarDiv ul {
+
+		/* background-color: rgba(200,200,200,0.5); */
+		/* Width is: width each li + 2px for each li except the first, x # of li */
+		width: 904px;
+		padding: 10px 0;
+
+	}
+
+	#navBarDiv ul li {
+		width: var(--widthOfNavBarItems);
+		margin: 0;
+		float: left;
+		list-style-type: none;
+		border-left: 2px solid white;
+
+	}
+		#navBarDiv ul li:first-child {
+			border-left: none;
+		}
+
+		#navBarDiv ul li a {
+			text-decoration: none;
+			font-size: 30px;
+			font-family: Georgia;
+			font-weight: 700;
+			color: rgba(255,255,255,1);
+			text-align: center;
+			display: block;
+			width: 100%;
+			padding: 10px 0;
+			transition: 0.15s;
+		}
+			#navBarDiv ul li a:hover {
+
+				color: rgba(83, 37, 99, 1);
+				cursor: pointer;
+
+			}
+			#navBarDiv ul li a:active {
+
+				color: rgba(222, 195, 40. 1);
+
+			}
+
+#introDiv {
+
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding-top: 100px;
+	/* background-color: rgba(0,0,0,0.4); */
+	/* height: calc(100% - 100px); */
+
+}
+
+#mobileDeveloperTitle {
+
+	/* padding-top: 50px; */
+	margin-top: 60px;
+
+}
+
+h1 {
+
+	font-weight: 200;
+	font-size: 150px;
+	color: rgba(255,255,255,1);
+
+}
+h2 {
+
+	font-weight: 200;
+	font-size: 60px;
+	color: rgba(135,135,135,1);
+
+}
+	#detailDiv h2, #projectDiv h2, #certificationDiv h2 {
+
+		font-family: "Georgia";
+		font-weight: 400;
+		font-style: italic;
+
+	}
+
+h3 {
+
+	font-family: "Georgia";
+	font-weight: 200;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+
+}
+
+.paragraphs {
+
+	font-family: "Helvetica Neue";
+	font-size: 35px;
+	font-weight: 400;
+	color: rgba(255,255,255,0.6);
+	margin: 50px 100px;
+
+}
+
+#detailDiv {
+
+	padding-top: 100px;
+	padding-bottom: 100px;
+	position: relative;
+	width: 100%;
+	min-height: 600px;
+	/* background-color: rgba(204,204,204,1); */
+	background-color: rgba(0,0,0,1);
+
+}
+#projectDiv {
+
+	padding: 100px 10% 10% 10%;
+	/* margin: 5%; */
+	position: relative;
+	/* width: 80%; */
+	width: 80%;
+	/* height: 900px; */
+	background-color: rgba(0,0,0,0.3);
+
+}
+
+	.projectImageDiv {
+
+		position: relative;
+
+	}
+
+		#triangle {
+
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+
+		}
+
+	#projectDiv h2 {
+
+		padding-bottom: 50px;
+		color: rgba(255,255,255,1);
+
+	}
+
+	#projectImagesContainerDiv {
+
+		width: 100%;
+		height: 100%;
+		position: relative;
+
+	}
+
+		.individualProjectDiv {
+
+			color: rgba(255,255,255,0.7);
+			background-color: rgba(0,0,0,0.7);
+			margin-bottom: 10%;
+
+		}
+
+			.individualProjectDiv > div {
+
+				float: left;
+
+			}
+
+		.projectImageDiv {
+
+			width: 100%;
+			height: 100%;
+
+		}
+
+			.projectImageDiv img {
+
+				display: block;
+				width: 100%;
+				height: 100%;
+
+			}
+
+		.projectTitleDiv {
+
+			font-weight: 200;
+			font-size: 30px;
+
+
+		}
+
+		#carouselTitle {
+			width: 40%;
+			padding-top: 12%;
+		}
+		#carouselFirstImageDiv {
+			width: 60%;
+		}
+		#carouselSecondImageDiv {
+			width: 60%;
+		}
+		#carouselDescription {
+			width: 40%;
+			padding-top: 12%;
+		}
+
+		#matchingTitle {
+			width: 40%;
+			padding-top: 12%;
+		}
+		#matchingFirstImageDiv {
+			width: 60%;
+		}
+		#matchingSecondImageDiv {
+			width: 30%;
+		}
+		#matchingDescription {
+			width: 70%;
+			padding-top: 12%;
+		}
+
+		#quoteQuizTitle {
+			width: 55%;
+			padding-top: 8%;
+		}
+		#quoteQuizFirstImageDiv {
+			padding: 5% 15% 5% 5%;
+			width: 25%;
+		}
+		#quoteQuizSecondImageDiv {
+			width: 35%;
+		}
+		#quoteQuizDescription {
+			width: 65%;
+			padding-top: 12%;
+		}
+
+		#chronologicalAgeCalculatorTitle {
+			width: 50%;
+			padding-top: 10%;
+		}
+		#chronologicalAgeCalculatorFirstImageDiv {
+			width: 50%;
+		}
+		#chronologicalAgeCalculatorSecondImageDiv {
+			width: 40%;
+		}
+		#chronologicalAgeCalculatorDescription {
+			width: 60%;
+			padding-top: 12%;
+		}
+
+		#movingButtonsTitle {
+			width: 60%;
+			padding-top: 15%;
+		}
+		#movingButtonsFirstImageDiv {
+			width: 40%;
+		}
+		#movingButtonsSecondImageDiv {
+			width: 0%;
+		}
+		#movingButtonsDescription {
+			width: 100%;
+			padding-top: 12%;
+			padding-bottom: 12%;
+		}
+
+
+
+
+#certificationDiv {
+
+	padding-top: 100px;
+	position: relative;
+	width: 100%;
+	height: 400px;
+	/* background-color: rgba(204,204,204,1); */
+	background-color: rgba(0,0,0,1);
+
+}
+
+	#unsplashAttribution {
+
+		position: absolute;
+		bottom: 10px;
+		left: 10px;
+		z-index: 10;
+		padding:6px 8px;
+		background-color:black;
+		color:white;
+		text-decoration:none;
+		font-family:-apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
+		font-size:24px;
+		font-weight:bold;
+		/* line-height:1.2; */
+		display:inline-block;
+		border-radius:3px;
+
+	}
+
+
+
+@media screen and (min-width: 500px) {
+
+
+
+}
+
+@media screen and (min-width: 600px) {
+
+
+
+}
+
+@media screen and (min-width: 700px) {
+
+
+
+}
+
+@media screen and (min-width: 800px) {
+
+
+
+}
+
+@media screen and (min-width: 900px) {
+
+
+
+}
+
+@media screen and (min-width: 1000px) {
+
+
+
+}
+
+@media screen and (min-width: 1100px) {
+
+
+
+}
