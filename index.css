@@ -174,9 +174,19 @@ h3 {
 	font-size: 25px;
 	font-weight: 400;
 	color: rgba(255,255,255,0.6);
-	margin: 50px 100px;
+	margin: 30px;
 
 }
+
+	.projectDetails a {
+
+		text-decoration: none;
+		font-family: "Helvetica Neue";
+		font-size: 25px;
+		font-weight: 400;
+		color: rgba(255,255,255,0.6);
+
+	}
 
 .gitHubLink {
 
@@ -203,21 +213,15 @@ h3 {
 }
 #projectDiv {
 
-	padding: 100px 10% 10% 10%;
+	padding: 100px 5% 10% 5%;
 	/* margin: 5%; */
 	position: relative;
 	/* width: 80%; */
-	width: 80%;
+	width: 90%;
 	/* height: 900px; */
 	background-color: rgba(0,0,0,0.3);
 
 }
-
-	.projectImageDiv {
-
-		position: relative;
-
-	}
 
 		#triangle {
 
@@ -253,23 +257,29 @@ h3 {
 
 		}
 
-			.individualProjectDiv > div {
+			.individualProjectDiv div {
 
 				float: left;
 
 			}
 
-			.projectImageDiv img {
+			.projectImageDiv {
 
-				display: block;
-				width: 100%;
+				position: relative;
 
 			}
+
+				.projectImageDiv img {
+
+					display: block;
+					width: 100%;
+
+				}
 
 		.projectTitleDiv {
 
 			font-weight: 200;
-			font-size: 50px;
+			font-size: 60px;
 
 
 		}
@@ -292,22 +302,26 @@ h3 {
 		}
 
 		.verticalTitleDiv {
-			width: 50%;
-			padding-top: 30%;
+			width: 34%;
+			padding: 30% 3% 0% 3%;
 		}
 		.verticalFirstImageDiv {
 			padding: 10%;
 			padding-left: 0%;
-			width: 40%;
+			width: 50%;
 		}
 		.verticalSecondImageDiv {
 			padding: 10%;
 			padding-right: 0%;
-			width: 40%;
+			width: 50%;
 		}
 		.verticalDescription {
-			width: 50%;
-			padding-top: 12%;
+			width: 40%;
+			padding-top: 20%;
+		}
+
+		.verticalDescriptionSectionDiv {
+			width: 100%;
 		}
 
 
