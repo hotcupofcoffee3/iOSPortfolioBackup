@@ -171,10 +171,10 @@ h3 {
 .projectDetails {
 
 	font-family: "Helvetica Neue";
-	font-size: 25px;
+	font-size: 30px;
 	font-weight: 400;
 	color: rgba(255,255,255,0.6);
-	margin: 30px;
+	margin-bottom: 90px;
 
 }
 
@@ -182,16 +182,26 @@ h3 {
 
 		text-decoration: none;
 		font-family: "Helvetica Neue";
-		font-size: 25px;
+		font-size: 30px;
 		font-weight: 400;
 		color: rgba(255,255,255,0.6);
+
+	}
+
+	#introGitHubLink {
+
+		font-family: "Georgia";
+		font-size: 30px;
+		font-weight: 200;
+		color: rgba(255,255,255,0.8);
+		text-decoration: none;
 
 	}
 
 .gitHubLink {
 
 	font-family: "Georgia";
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: 200;
 	color: rgba(255,255,255,0.6);
 	display: block;
@@ -289,12 +299,12 @@ h3 {
 			padding-top: 12%;
 		}
 		.horizontalFirstImageDiv {
-			padding: 10%;
-			width: 80%;
+			padding: 10% 5%;
+			width: 90%;
 		}
 		.horizontalSecondImageDiv {
-			padding: 10%;
-			width: 80%;
+			padding: 10% 5%;
+			width: 90%;
 		}
 		.horizontalDescription {
 			width: 100%;
@@ -302,22 +312,22 @@ h3 {
 		}
 
 		.verticalTitleDiv {
-			width: 34%;
-			padding: 30% 3% 0% 3%;
+			width: 35%;
+			padding: 30% 0% 0% 5%;
 		}
 		.verticalFirstImageDiv {
-			padding: 10%;
-			padding-left: 0%;
+			padding: 5% 5% 10% 5%;
+			/* padding-left: 0%; */
 			width: 50%;
 		}
 		.verticalSecondImageDiv {
-			padding: 10%;
-			padding-right: 0%;
+			padding: 5% 5% 10% 5%;
+			/* padding-right: 0%; */
 			width: 50%;
 		}
 		.verticalDescription {
-			width: 40%;
-			padding-top: 20%;
+			width: 30%;
+			padding: 20% 5% 0% 5%;
 		}
 
 		.verticalDescriptionSectionDiv {
