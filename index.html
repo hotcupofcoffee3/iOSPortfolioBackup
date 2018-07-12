@@ -31,7 +31,7 @@
     <div id="navBarDiv">
 
       <ul>
-        <li><a href="#detailDiv">About</a></li>
+        <li><a href="#absolutelyPlacedDivToPassiveMadelyn">About</a></li>
         <li><a href="#projectDiv">Projects</a></li>
         <li><a href="#certificationDiv">Certifications</a></li>
       </ul>
@@ -47,11 +47,13 @@
 
     <div id="detailDiv">
 
-      <h2>This is a bit about me</h2>
+      <div id="absolutelyPlacedDivToPassiveMadelyn"></div>
+
+      <h2>About</h2>
 
       <p class="paragraph">
 
-        After years spent home with my kids, a short dabble in teaching, and the support of my wife and little ones, I am finally chasing after my dream of becoming a developer.<br><br>I have always loved programming, and it&apos;s been my go-to for when I am stressed, bored, or just want something enjoyable to do. I am mostly self-taught, but recently received a certification in iOS 11 and Swift 4, and am knowledgeable in HTML, CSS, JavaScript, and a little PHP and SQL. I am currently working toward two more certifications in iOS and Swift, while continuing to refine my skills in front-end and back-end web development.<br><br>I took a huge risk in quitting my teaching job, but what better time to pursue my dream than in my mid-30s with a wife and two kids to provide for?<br><br>Fingers crossed this works out and my code doesn&apos;t suck.
+        After years spent home with my kids, a short dabble in teaching, and the support of my wife and little ones, I am finally chasing after my dream of becoming a developer.<br><br>I have always loved programming, and it&apos;s been my go-to for when I am stressed, bored, or just want something enjoyable to do. I am mostly self-taught, but recently received a certification in iOS 11 and Swift 4, and am knowledgeable in HTML, CSS, JavaScript, and a little PHP and SQL. I am currently working toward two more certifications in iOS and Swift, while continuing to refine my skills in front-end and back-end web development.<br><br>I took a huge risk in quitting my teaching job, but what better time to pursue my dream than in my mid-30s with a wife and two kids to provide for?<br><br>Fingers crossed I can make this work.
 
       </p>
 
@@ -59,25 +61,28 @@
 
     <div id="projectDiv">
 
-      <h2>Projects</h2>
-
       <div id="projectImagesContainerDiv">
-
 
 
         <!-- Intro information about projects -->
 
           <div class="individualProjectDiv">
 
-          <div class="projectShortDescriptionDiv horizontalDescription">
+            <h2 id="projectsTitle">Projects</h2>
 
-            <p class="projectDetails">A few of the projects that I have done so far.<br><br>These and more can be found on my <a href="https://github.com/hotcupofcoffee3" id="introGitHubLink">GitHub account.</a></p>
+            <div>
 
+              <p id="projectIntroInfo">
 
+                Here is a sample of the projects that I have completed thus far; some that I created from scratch for my own needs, and others created through my certification courses.
+
+                <br><br>
+
+                These and more can be found on my<br><a href="https://github.com/hotcupofcoffee3" id="introGitHubLink">GitHub account.</a></p>
+
+            </div>
 
           </div>
-
-        </div>
 
 
 
@@ -163,6 +168,90 @@
 
 
 
+        <!-- Clima -->
+
+        <div class="individualProjectDiv">
+
+          <div class="projectTitleDiv verticalTitleDiv">
+
+            <p class="projectTitle">Clima</p>
+
+          </div>
+
+          <div class="projectImageDiv verticalFirstImageDiv">
+
+              <img src="img/clima/clima1-vertical.png" />
+
+          </div>
+
+          <div class="projectImageDiv verticalSecondImageDiv">
+
+              <img src="img/clima/clima2-vertical.png" />
+
+          </div>
+
+          <div class="projectShortDescriptionDiv verticalDescription">
+
+            <p class="projectDetails">Simple weather app that uses OpenWeather&apos;s API.<br><br>Project from <a href="https://www.udemy.com/ios-11-app-development-bootcamp/">Angela Yu's Udemy course.</a></p>
+
+            <a href="https://github.com/hotcupofcoffee3/Clima.git" class="gitHubLink">View on GitHub</a>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- FlashChat -->
+
+        <div class="individualProjectDiv">
+
+          <div class="projectTitleDiv verticalTitleDiv">
+
+            <p class="projectTitle">FlashChat</p>
+
+          </div>
+
+          <div class="projectImageDiv verticalFirstImageDiv">
+
+              <img src="img/flashChat/flashChat1-vertical.png" />
+
+          </div>
+
+          <div class="projectImageDiv verticalSecondImageDiv">
+
+              <img src="img/flashChat/flashChat2-cropped.png" />
+
+          </div>
+
+          <div class="projectShortDescriptionDiv verticalDescription">
+
+            <p class="projectDetails">Chat app that uses Firebase.</p>
+
+          </div>
+
+          <div "verticalDescriptionSectionDiv">
+
+            <div class="projectImageDiv verticalSecondImageDiv">
+
+                <img src="img/flashChat/flashChat3-cropped.png" />
+
+            </div>
+
+            <div class="projectShortDescriptionDiv verticalDescription">
+
+              <p class="projectDetails">Project from <a href="https://www.udemy.com/ios-11-app-development-bootcamp/">Angela Yu's Udemy course.</a></p>
+
+              <a href="https://github.com/hotcupofcoffee3/FlashChat.git" class="gitHubLink">View on GitHub</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
         <!-- WRD Game -->
 
           <div class="individualProjectDiv">
@@ -203,7 +292,7 @@
 
           <div class="projectTitleDiv horizontalTitleDiv">
 
-            <p class="projectTitle">BMI<br><br>Calculator</p>
+            <p class="projectTitle">BMI Calculator</p>
 
           </div>
 
