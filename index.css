@@ -6,7 +6,9 @@
 #navBarDiv ul:after,
 #projectImagesContainerDiv:after,
 #projectImageDiv:after,
-.individualProjectDiv:after {
+.individualProjectDiv:after,
+#certificationDiv:after,
+.individualCertificationDiv:after {
 	content: "";
 	visibility: hidden;
 	display: block;
@@ -28,6 +30,13 @@ html, body {
 
 body{
 	position: relative;
+}
+
+a {
+
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+
 }
 
 #mainBackgroundDiv {
@@ -366,13 +375,65 @@ h3 {
 #certificationDiv {
 
 	padding-top: 100px;
+	padding-bottom: 100px;
 	position: relative;
 	width: 100%;
-	height: 400px;
+	/* min-height: 400px; */
+	color: rgba(255,255,255,1);
 	/* background-color: rgba(204,204,204,1); */
 	background-color: rgba(0,0,0,1);
 
 }
+
+	#certificationDiv h2 {
+
+		padding-bottom: 42px;
+
+	}
+
+.certificationTitleDiv {
+
+	width: 100%;
+	padding-top: 6%;
+	padding-bottom: 6%;
+	font-weight: 200;
+	font-size: 50px;
+
+}
+
+	.individualCertificationDiv {
+
+		padding: 0% 10% 5% 10%;
+
+	}
+
+		.individualCertificationDiv img {
+
+			width: 10%;
+			float: left;
+
+		}
+
+		.certificationDescription {
+
+			font-family: "Helvetica Neue";
+			font-size: 35px;
+			font-weight: 400;
+			color: rgba(255,255,255,1);
+			width: 85%;
+			/* padding: 2% 0% 2% 5%; */
+			padding-left: 5%;
+			float: left;
+			text-align: left;
+
+		}
+
+			.certificationDescription a {
+
+				text-decoration: none;
+				color: white;
+
+			}
 
 	#unsplashAttribution {
 
