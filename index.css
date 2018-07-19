@@ -108,22 +108,23 @@ a {
 		}
 			#navBarDiv ul li a:hover {
 
-				color: rgba(83, 37, 99, 1);
-				cursor: pointer;
+				/* color: rgba(83, 37, 99, 1); */
+				background-color: rgba(255,255,255,0.8);
+				color: rgba(0,0,0,1);
 
 			}
-			#navBarDiv ul li a:active {
+			/* #navBarDiv ul li a:active {
 
 				color: rgba(222, 195, 40. 1);
 
-			}
+			} */
 
 #introDiv {
 
 	position: relative;
 	width: 100%;
 	height: calc(100% - 195px);
-	padding-top: 100px;
+	padding-top: 300px;
 	/* background-color: rgba(0,0,0,0.4); */
 	/* height: calc(100% - 100px); */
 
@@ -560,14 +561,24 @@ h3 {
 }
 
 @media only screen and (min-width: 800px) {
+
+
+
 }
 
 @media only screen and (min-width: 900px) {
+
+
+
 }
 
 @media only screen and (min-width: 1000px) {
 
+	#introDiv {
 
+		padding-top: 100px;
+
+	}
 
 	.horizontalTitleDiv {
 		width: 100%;
