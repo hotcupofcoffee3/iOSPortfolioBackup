@@ -296,6 +296,8 @@ h3 {
 
 		.individualProjectDiv {
 
+			width: 100%;
+			position: relative;
 			color: rgba(255,255,255,1);
 			background-color: rgba(0,0,0,0.7);
 			margin-bottom: 10%;
@@ -371,6 +373,7 @@ h3 {
 
 		.verticalDescriptionSectionDiv {
 			width: 100%;
+			position: relative;
 		}
 
 
@@ -584,81 +587,6 @@ h3 {
 
 	}
 
-	.horizontalTitleDiv {
-		width: 100%;
-		padding-top: 12%;
-		padding-bottom: 6%;
-	}
-	.horizontalFirstImageDiv {
-		padding: 10% 10%;
-		width: 80%;
-	}
-	.horizontalSecondImageDiv {
-		padding: 10% 10%;
-		width: 80%;
-	}
-	.horizontalDescription {
-		width: 80%;
-		padding: 5% 10% 10% 10%;
-	}
-
-	.verticalTitleDiv {
-		width: 30%;
-		padding: 30% 10% 0% 10%;
-	}
-	.verticalFirstImageDiv {
-		padding: 5% 10% 10% 10%;
-		/* padding-left: 0%; */
-		width: 30%;
-	}
-	.verticalSecondImageDiv {
-		padding: 5% 5% 10% 10%;
-		/* padding-right: 0%; */
-		width: 35%;
-	}
-	.verticalDescription {
-		width: 40%;
-		padding: 20% 10% 0% 0%;
-	}
-
-	.individualCertificationDiv {
-
-		padding: 0% 15% 5% 15%;
-
-	}
-
-	.individualCertificationDiv img {
-
-		width: 7%;
-
-	}
-
-	.certificationDescription {
-
-		font-size: 26px;
-		font-weight: 300;
-		width: 88%;
-		padding-left: 5%;
-
-	}
-
-	#contact {
-
-		font-size: 25px;
-		font-weight: 300;
-
-	}
-
-	#unsplashAttribution {
-
-		font-size:20px;
-
-	}
-
-}
-
-@media screen and (min-width: 1000px) {
-
 	h3 {
 
 		font-weight: 200;
@@ -701,14 +629,14 @@ h3 {
 		padding: 25% 20% 0% 10%;
 	}
 	.verticalFirstImageDiv {
-		padding: 5% 20% 5% 5%;
+		padding: 5% 5% 10% 5%;
 		/* padding-left: 0%; */
-		width: 25%;
+		width: 40%;
 	}
 	.verticalSecondImageDiv {
-		padding: 5% 10% 5% 15%;
+		padding: 5% 5% 10% 5%;
 		/* padding-right: 0%; */
-		width: 25%;
+		width: 40%;
 	}
 	.verticalDescription {
 		width: 35%;
@@ -728,9 +656,16 @@ h3 {
 
 		}
 
+			.individualCertificationDiv img {
+
+				width: 7%;
+
+			}
+
 			.certificationDescription {
 
 				font-size: 24px;
+				font-weight: 300;
 				width: 85%;
 				padding-left: 5%;
 
@@ -744,6 +679,8 @@ h3 {
 
 	#contact {
 
+		font-size: 25px;
+		font-weight: 300;
 		margin-top: 50px;
 		margin-bottom: 0px;
 
