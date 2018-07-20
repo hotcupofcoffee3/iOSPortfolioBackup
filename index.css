@@ -342,8 +342,8 @@ h3 {
 			width: 90%;
 		}
 		.horizontalDescription {
-			width: 100%;
-			padding: 5% 0% 10% 0%;
+			width: 90%;
+			padding: 5% 5% 10% 5%;
 		}
 
 		.verticalTitleDiv {
@@ -353,12 +353,16 @@ h3 {
 		.verticalFirstImageDiv {
 			padding: 5% 5% 10% 5%;
 			/* padding-left: 0%; */
-			width: 50%;
+			width: 40%;
 		}
 		.verticalSecondImageDiv {
 			padding: 5% 5% 10% 5%;
 			/* padding-right: 0%; */
-			width: 50%;
+			width: 40%;
+		}
+		.verticalCenterImageDiv {
+			width: 40%;
+			padding: 5% 30% 10% 30%;
 		}
 		.verticalDescription {
 			width: 35%;
