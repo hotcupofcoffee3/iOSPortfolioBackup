@@ -348,7 +348,7 @@ h3 {
 
 		.verticalTitleDiv {
 			width: 35%;
-			padding: 30% 0% 0% 5%;
+			padding: 30% 5% 0% 0%;
 		}
 		.verticalFirstImageDiv {
 			padding: 5% 5% 10% 5%;
@@ -518,7 +518,7 @@ h3 {
 
 		.verticalTitleDiv {
 			width: 45%;
-			padding: 30% 0% 0% 5%;
+			padding: 30% 5% 0% 0%;
 		}
 		.verticalFirstImageDiv {
 			padding: 5% 5% 10% 5%;
@@ -594,8 +594,8 @@ h3 {
 		width: 80%;
 	}
 	.horizontalDescription {
-		width: 100%;
-		padding: 5% 0% 10% 0%;
+		width: 80%;
+		padding: 5% 10% 10% 10%;
 	}
 
 	.verticalTitleDiv {
@@ -688,21 +688,21 @@ h3 {
 		width: 60%;
 	}
 	.horizontalDescription {
-		width: 100%;
-		padding: 5% 0% 10% 0%;
+		width: 80%;
+		padding: 5% 10% 10% 10%;
 	}
 
 	.verticalTitleDiv {
 		width: 20%;
-		padding: 25% 10% 0% 20%;
+		padding: 25% 20% 0% 10%;
 	}
 	.verticalFirstImageDiv {
-		padding: 5% 20% 10% 5%;
+		padding: 5% 20% 5% 5%;
 		/* padding-left: 0%; */
 		width: 25%;
 	}
 	.verticalSecondImageDiv {
-		padding: 5% 10% 10% 15%;
+		padding: 5% 10% 5% 15%;
 		/* padding-right: 0%; */
 		width: 25%;
 	}
